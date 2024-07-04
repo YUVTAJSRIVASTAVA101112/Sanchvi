@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanchvi Studio</title>
+  <!--Font Awesome CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul class="sidebar">
+      <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="#">Home</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Shop</a>
+        <div class="dropdown-content">
+          <a href="#">1st Birthday</a>
+          <a href="#">Party Wear</a>
+          <a href="#">Ethnic</a>
+          <a href="#">Accessories</a>
+          <a href="#">Theme</a>
+        </div>
+      </li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Studio space</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Terms and Condition</a></li>
+    </ul>
+    <ul>
+      <li><a href="#">Sanchvi Studio</a></li>
+      <li class="hideOnMobile"><a href="#">Home</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">Shop</a>
+        <div class="dropdown-content">
+          <a href="#">1st Birthday</a>
+          <a href="#">Party Wear</a>
+          <a href="#">Ethnic</a>
+          <a href="#">Accessories</a>
+          <a href="#">Theme</a>
+        </div>
+      <li class="hideOnMobile"><a href="#">Contact</a></li>
+      <li><a href="#">Studio space</a></li>
+      <li class="hideOnMobile"><a href="#">About Us</a></li>
+      <li class="hideOnMobile"><a href="#">Terms and Condition</a></li>
+      <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+<div class="vid">
+
+  <video src="videos/video10.mp4" loop autoplay muted  ></video>
+</div>
+
+  <!-- Animatede card -->
+  <div class="box-container">
+    <div class="box-item">
+      <div class="flip-box medium">
+        <div class="flip-box-front text-center" style="background-image: url('img/Birthday.webp');">
+          <div class="inner color-white">
+            <h3 class="flip-box-header">1st Birthday</h3>
+            <p>A short sentence describing this callout is.</p>
+            <img src="img/Birthday.webp" width="25px" height="25px" alt="" class="flip-box-img">
+          </div>
+        </div>
+        <div class="flip-box-back text-center" style="background-image: url('img/Birthday.webp');">
+          <div class="inner color-white">
+            <h3 class="flip-box-header">1st Birthday</h3>
+            <p>A short sentence describing this callout is.</p>
+            <button class="flip-box-button">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box-item">
+      <div class="flip-box">
+        <div class="flip-box-front text-center" style="background-image: url('img/Casual.webp');">
+          <div class="inner color-white">
+            <h3 class="flip-box-header">Casual</h3>
+            <p>A short sentence describing this callout is.</p>
+            <img src="img/Casual.webp width =25px height = 25px" alt="" class="flip-box-img">
+          </div>
+        </div>
+        <div class="flip-box-back text-center" style="background-image: url('img/Casual.webp');">
+          <div class="inner color-white">
+            <h3 class="flip-box-header">Casual</h3>
+            <p>A short sentence describing this callout is.</p>
+            <button class="flip-box-button">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box-item">
+      <div class="flip-box">
+        <div class="flip-box-front text-center filter-" style="background-image: url('img/Ethnic.jpg');">
+          <div class="inner color-white">
+            <h3 class="flip-box-header">Ethnic</h3>
+            <p>A short sentence describing this callout is.</p>
+            <img src="img/Ethnic.jpg width = 25px height = 25px" alt="" class="flip-box-img">
+          </div>
+        </div>
+        <div class="flip-box-back text-center" style="background-image: url('img/Ethnic.jpg');">
+          <div class="inner color-white">
+            <h3 class="flip-box-header">Ethnic</h3>
+            <p>A short sentence describing this callout is.</p>
+            <button class="flip-box-button">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box-item">
+      <div class="flip-box">
+        <div class="flip-box-front text-center" style="background-image: url('img/party\ wear.jpeg');">
+          <div class="inner color-white">
+            <h3 class="flip-box-header">Party Wear</h3>
+            <p>A short sentence describing this callout is.</p>
+            <img src="img/Birthday.webp width =25px height = 25px" alt="" class="flip-box-img">
+          </div>
+        </div>
+        <div class="flip-box-back text-center" style="background-image: url('img/party\ wear.jpeg');">
+          <div class="inner color-white">
+            <h3 class="flip-box-header">Party Wear</h3>
+            <p>A short sentence describing this callout is.</p>
+            <button class="flip-box-button">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box-item">
+      <div class="flip-box">
+        <div class="flip-box-front text-center" style="background-image: url('img/mom-duaghter.jpg');">
+          <div class="inner color-white">
+            <h3 class="flip-box-header">Mom-Duagther Duo</h3>
+            <p>A short sentence describing this callout is.</p>
+            <img src="img/Casual.webp width =25px height = 25px" alt="" class="flip-box-img">
+          </div>
+        </div>
+        <div class="flip-box-back text-center" style="background-image: url('img/mom-duaghter.jpg');">
+          <div class="inner color-white">
+            <h3 class="flip-box-header">Mom-Duagther Duo</h3>
+            <p>A short sentence describing this callout is.</p>
+            <button class="flip-box-button">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="box-item">
+      <div class="flip-box">
+        <div class="flip-box-front text-center filter-" style="background-image: url('img/ACCESSORIES.jpg');">
+          <div class="inner color-white">
+            <h3 class="flip-box-header">Accessories</h3>
+            <p>A short sentence describing this callout is.</p>
+            <img src="img/Ethnic.jpg width = 25px height = 25px" alt="" class="flip-box-img">
+          </div>
+        </div>
+        <div class="flip-box-back text-center" style="background-image: url('img/ACCESSORIES.jpg');">
+          <div class="inner color-white">
+            <h3 class="flip-box-header">Accessories</h3>
+            <p>A short sentence describing this callout is.</p>
+            <button class="flip-box-button">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+      <!-- video cards  -->
+ <div style="padding-top: 5%;">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+      <div style="display: flex; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 5%;">
+        <div style="width: 100%; max-width: 400px; height: 610px; position: relative; flex: 1 1 300px;">
+          <video src="videos/video11.mp4" autoplay loop muted
+            style="width: 100%; height: 100%; object-fit: cover;"></video>
+          <a href="details1">
+            <button
+              style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 10px 20px; border: 2px solid #fff; border-radius: 5px; background-color: rgba(0, 0, 0, 0.5); color: #fff; font-size: 16px; text-align: center; cursor: pointer;">Buy
+              Now</button>
+          </a>
+        </div>
+        <div style="width: 100%; max-width: 400px; height: 610px; position: relative; flex: 1 1 300px;">
+          <video src="videos/video12.mp4" autoplay loop muted
+            style="width: 100%; height: 100%; object-fit: cover;"></video>
+          <a href="details2">
+            <button
+              style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 10px 20px; border: 2px solid #fff; border-radius: 5px; background-color: rgba(0, 0, 0, 0.5); color: #fff; font-size: 16px; text-align: center; cursor: pointer;">Buy
+              Now</button>
+          </a>
+        </div>
+        <div style="width: 100%; max-width: 400px; height: 610px; position: relative; flex: 1 1 300px;">
+          <video src="videos/video16.mp4" autoplay loop muted
+            style="width: 100%; height: 100%; object-fit: cover;"></video>
+          <a href="details3">
+            <button
+              style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 10px 20px; border: 2px solid #fff; border-radius: 5px; background-color: rgba(0, 0, 0, 0.5); color: #fff; font-size: 16px; text-align: center; cursor: pointer;">Buy
+              Now</button>
+          </a>
+        </div>
+      </div>
+      <div style="display: flex; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 5%;">
+        <div style="width: 100%; max-width: 400px; height: 610px; position: relative; flex: 1 1 300px;">
+          <video src="videos/video14.mp4" autoplay loop muted
+            style="width: 100%; height: 100%; object-fit: cover;"></video>
+          <a href="details4">
+            <button
+              style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 10px 20px; border: 2px solid #fff; border-radius: 5px; background-color: rgba(0, 0, 0, 0.5); color: #fff; font-size: 16px; text-align: center; cursor: pointer;">Buy
+              Now</button>
+          </a>
+        </div>
+        <div style="width: 100%; max-width: 400px; height: 610px; position: relative; flex: 1 1 300px;">
+          <video src="videos/video15.mp4" autoplay loop muted
+            style="width: 100%; height: 100%; object-fit: cover;"></video>
+          <a href="details5">
+            <button
+              style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 10px 20px; border: 2px solid #fff; border-radius: 5px; background-color: rgba(0, 0, 0, 0.5); color: #fff; font-size: 16px; text-align: center; cursor: pointer;">Buy
+              Now</button>
+          </a>
+        </div>
+        <div style="width: 100%; max-width: 400px; height: 610px; position: relative; flex: 1 1 300px;">
+          <video src="videos/video17.mp4" autoplay loop muted
+            style="width: 100%; height: 100%; object-fit: cover;"></video>
+          <a href="details6">
+            <button
+              style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 10px 20px; border: 2px solid #fff; border-radius: 5px; background-color: rgba(0, 0, 0, 0.5); color: #fff; font-size: 16px; text-align: center; cursor: pointer;">Buy
+              Now</button>
+          </a>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 20px;">
+            <a href="all_videos.html>
+                <button style="padding: 10px 20px; border: 2px solid #000; border-radius: 5px; background-color: #fff; color: #000; font-size: 16px; cursor: pointer;>View All</button>
+            </a>
+        </div> 
+    </div>
+  </div> 
+
+
+<!-- 
+<div class="container">
+ 
+  <div class="slide">
+
+      
+      <div class="item" style="background-image: url(https://i.ibb.co/qCkd9jS/img1.jpg);">
+          <div class="content">
+              <div class="name">Switzerland</div>
+              <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+              <button>See More</button>
+          </div>
+      </div>
+      <div class="item" style="background-image: url(https://i.ibb.co/jrRb11q/img2.jpg);">
+          <div class="content">
+              <div class="name">Finland</div>
+              <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+              <button>See More</button>
+          </div>
+      </div>
+      <div class="item" style="background-image: url(https://i.ibb.co/NSwVv8D/img3.jpg);">
+          <div class="content">
+              <div class="name">Iceland</div>
+              <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+              <button>See More</button>
+          </div>
+      </div>
+      <div class="item" style="background-image: url(https://i.ibb.co/Bq4Q0M8/img4.jpg);">
+          <div class="content">
+              <div class="name">Australia</div>
+              <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+              <button>See More</button>
+          </div>
+      </div>
+      <div class="item" style="background-image: url(https://i.ibb.co/jTQfmTq/img5.jpg);">
+          <div class="content">
+              <div class="name">Netherland</div>
+              <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+              <button>See More</button>
+          </div>
+      </div>
+      <div class="item" style="background-image: url(https://i.ibb.co/RNkk6L0/img6.jpg);">
+          <div class="content">
+              <div class="name">Ireland</div>
+              <div class="des">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, eum!</div>
+              <button>See More</button>
+          </div>
+      </div>
+
+  </div>
+
+  <div class="button">
+      <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+      <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+  </div>
+
+</div>  -->
+ <!-- <script src="scripts.js" async defer></script> -->
+
+
+  <footer>
+    <p>&copy; 2024 Sanchvi Studio. All rights reserved.</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar');
+      sidebar.style.display = 'flex';
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar');
+      sidebar.style.display = 'none';
+    }
+  </script>
+</body>
+</html>
